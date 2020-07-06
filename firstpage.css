@@ -55,3 +55,8 @@ p{
     transition:.5s;
     border:2px solid rgb(120, 63, 160);
 }
+@media(min-height:750px){
+    .question{
+        height:40%;
+    }
+}
