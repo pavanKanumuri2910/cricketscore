@@ -6,6 +6,22 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="admin.css">
     <title>Admin Authentication</title>
+    <script>
+        function authenticate()
+        {
+            var id="2910";
+            var pass="admin";
+            var str=document.getElementById("adminid").value;
+            var str1=document.getElementById("passwd").value;
+            if(id==str&&pass==str1){
+                window.location.replace("admindb.html");
+            }
+            else{
+                window.alert("Incorrect Credentials");
+            }
+
+        }
+    </script>
     </head>
     <body>
 <div class="container" id="container">
